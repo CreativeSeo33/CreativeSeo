@@ -1,5 +1,41 @@
 @import "variables";
 @import "bootstrap";
 @import "../libs/font-awesome/css/font-awesome.min.css";
+@import 'bourbon/bourbon'; 
+@import "navigation";
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	list-style-type: none !important;
+}
+
+.first-slide {
+	height: 100vh;
+	color: #B1986A;
+	//background-color: #F0F0F0;
+	&_description {
+		position: relative;
+		height: 100%;
+		&_container {
+			  position: absolute;
+			  top: 50%;
+			  left: 15%;
+			  transform: translateY(-50%);
+			  h1 {
+			  	font-weight: 700;
+			  }
+		}
+	}
+}
+
+.terminal {
+			
+			font-size: 32px;
+			color: #B1986A;
+			letter-spacing: 2px;
+			min-height: 45px;
+			font-weight: 300;
+		}
+
 
 
