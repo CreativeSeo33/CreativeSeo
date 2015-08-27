@@ -8,7 +8,9 @@ body {
 	font-family: 'Open Sans Condensed', sans-serif;
 	list-style-type: none !important;
 }
-
+ h1 {
+  	font-weight: 700;
+  }
 
 
 .cd-logo {
@@ -26,6 +28,11 @@ body {
 	position: relative;
 	overflow: hidden;
 }
+
+.slide2 {
+	height: 100vh;
+}
+
 .block-left {
 	width: 50%;
 	height: 100%;
@@ -47,6 +54,12 @@ body {
 }
 .descr-right {
 	opacity: 0;
+	display: inline-block;
+	position: absolute;
+  	top: 50%;
+  	text-align: center;
+  	
+  	width: 50%;
 }
 .block-right {
 	width: 50%;
@@ -86,6 +99,22 @@ body {
 	right: 0;
 	top: 0;
 	background-color: #fff;
+}
+.contr {
+	height: 100%;
+	width: 50%;
+	float: left;
+	//background-color: gold;
+	position: relative;
+	.center {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		h1 {
+			opacity: 0;
+		}
+	}
 }
 
 
