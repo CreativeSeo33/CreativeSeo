@@ -21,8 +21,12 @@ body {
 	}
 }
 
-
-
+.center-vh {
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+}
 .first-slide {
 	height: 100vh;
 	position: relative;
@@ -39,6 +43,10 @@ body {
 	float: left;
 	position: relative;
 	overflow: hidden;
+	h1 {
+		color: #B1986A;
+	}
+	
 }
 .descr {
   position: absolute;
@@ -58,8 +66,10 @@ body {
 	position: absolute;
   	top: 50%;
   	text-align: center;
-  	
   	width: 50%;
+  	h1 {
+		color: #B1986A;
+	}
 }
 .block-right {
 	width: 50%;
@@ -117,4 +127,79 @@ body {
 	}
 }
 
+// slide3
+.slide3 {
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	&_left {
+		width: 50%;
+		position: relative;
+		height: 100%;
+		float: left;
+		z-index: 10;
+		background-color:#F0F0F0;
+		&_content {
+		@extend .center-vh;
+			&_number {
+				font-size:90px;
+				text-align:center;
+				font-weight:700;
+				 
+			}
+		}
+	}
+	&_right {
+		width: 50%;
+		position: relative;
+		height: 100%;
+		float: left;
+		.block2 {
+			
+		}
+		.block3 {
+			position: absolute;
+			left: 120%;
+		}
+		.block4 {
+			position: absolute;
+			left: 120%;
+		}
+		&_content {
+		@extend .center-vh;
+			&_block1 {
+				font-size:300px;
+				text-align:center;
+				font-weight:700;
+				line-height: 300px;
+				max-height: 300px;
+				span {
+					font-size:18px;
+					text-align:center;
+					max-width:180px;
+					display: inline-block;
+				    line-height: 18px;
+				    position: relative;
+				    text-transform: uppercase;
+				    top: -20px;
+				    vertical-align: top;
+				}
+			}
+		}
+	}
+}
+.block-l2 {
+	opacity: 0;
+}
+.block-l3 {
+	opacity: 0;
+}
+.block-l4 {
+	opacity: 0;
+}
+// slide3
+
+.slide4 {
+	height: 100vh;
+}
 
