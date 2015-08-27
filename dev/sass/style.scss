@@ -9,33 +9,83 @@ body {
 	list-style-type: none !important;
 }
 
-.first-slide {
-	height: 100vh;
-	color: #B1986A;
-	//background-color: #F0F0F0;
-	&_description {
-		position: relative;
-		height: 100%;
-		&_container {
-			  position: absolute;
-			  top: 50%;
-			  left: 15%;
-			  transform: translateY(-50%);
-			  h1 {
-			  	font-weight: 700;
-			  }
-		}
+
+
+.cd-logo {
+	a {
+		font-size: 32px;
+		font-weight: 700;
+		color: #333;
 	}
 }
 
-.terminal {
-			
-			font-size: 32px;
-			color: #B1986A;
-			letter-spacing: 2px;
-			min-height: 45px;
-			font-weight: 300;
-		}
 
+
+.first-slide {
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+.block-left {
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.descr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  h1 {
+  	font-weight: 700;
+  }
+  p {
+  	font-size: 18px;
+  }
+}
+.descr-right {
+	opacity: 0;
+}
+.block-right {
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.imgcont {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  .imgr {
+  	width: 100%;
+  	opacity: 1;
+  }
+}
+.imgn {
+	position: absolute;
+	top:100%;
+	left: 0;
+	opacity: 0;
+}
+.wblock {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #fff;
+}
+.wblock2 {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #fff;
+}
 
 

@@ -5034,28 +5034,83 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   list-style-type: none !important; }
 
-/* line 12, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
+.cd-logo a {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333; }
+
+/* line 24, ../sass/style.scss */
 .first-slide {
   height: 100vh;
-  color: #B1986A; }
-  /* line 16, ../sass/style.scss */
-  .first-slide_description {
-    position: relative;
-    height: 100%; }
-    /* line 19, ../sass/style.scss */
-    .first-slide_description_container {
-      position: absolute;
-      top: 50%;
-      left: 15%;
-      transform: translateY(-50%); }
-      /* line 24, ../sass/style.scss */
-      .first-slide_description_container h1 {
-        font-weight: 700; }
+  position: relative;
+  overflow: hidden; }
 
-/* line 31, ../sass/style.scss */
-.terminal {
-  font-size: 32px;
-  color: #B1986A;
-  letter-spacing: 2px;
-  min-height: 45px;
-  font-weight: 300; }
+/* line 29, ../sass/style.scss */
+.block-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+  overflow: hidden; }
+
+/* line 36, ../sass/style.scss */
+.descr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  /* line 41, ../sass/style.scss */
+  .descr h1 {
+    font-weight: 700; }
+  /* line 44, ../sass/style.scss */
+  .descr p {
+    font-size: 18px; }
+
+/* line 48, ../sass/style.scss */
+.descr-right {
+  opacity: 0; }
+
+/* line 51, ../sass/style.scss */
+.block-right {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+  overflow: hidden; }
+
+/* line 58, ../sass/style.scss */
+.imgcont {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%; }
+  /* line 63, ../sass/style.scss */
+  .imgcont .imgr {
+    width: 100%;
+    opacity: 1; }
+
+/* line 68, ../sass/style.scss */
+.imgn {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  opacity: 0; }
+
+/* line 74, ../sass/style.scss */
+.wblock {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #fff; }
+
+/* line 82, ../sass/style.scss */
+.wblock2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #fff; }

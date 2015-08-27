@@ -12,14 +12,14 @@
 
 <div class="first-slide">
 	<!-- navigation -->
-	<header class="cd-header">
+	 <header class="cd-header">
 		<div class="cd-logo"><a href="#0">Creative Seo</a></div>
 
 	
 
 		<a class="cd-primary-nav-trigger" href="#0">
 			<span class="cd-menu-text">Меню</span><span class="cd-menu-icon"></span>
-		</a> <!-- cd-primary-nav-trigger -->
+		</a> 
 	</header>
 	<nav>
 		<ul class="cd-primary-nav">
@@ -30,22 +30,84 @@
 			<li><a href="#0">Join In</a></li>
 			<li><a href="#0">Create an account</a></li>
 		</ul>
-	</nav>
+	</nav> 
 	<!-- navigation -->
-	<div class="first-slide_description">
-		<div class="first-slide_description_container">
-			<h1>Продвижение сайтов</h1>
-			<div class="terminal"></div>
-		</div>
+	<div class="block-left">
+	  <div class="imgcont">
+		<img src="img/gl.jpg" alt="" class="imgr img1 img-responsive">
+		<div class="wblock"></div>
+	  </div>
+	  <div class="descr descr-left">
+	  	<h1>Продвижение сайтов</h1>
+	  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nulla debitis nemo corrupti at facere perspiciatis, dignissimos ducimus accusamus fugit iste pariatur provident ut corporis quo. Nemo dolorum dicta eos?</p>
+	  </div>
 	</div>
+
+	<div class="block-right">
+	  <div class="imgcont">
+		<img src="img/gr.jpg" alt="" class="imgr img2 img-responsive">
+		<img src="img/n.png" alt="" class="img-responsive imgn" width="200">
+		<div class="wblock2"></div>
+	  </div>
+	  <div class="descr descr-right">
+	  	<h1>Вы получаете результат</h1>
+	  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nulla debitis nemo corrupti at facere perspiciatis, dignissimos ducimus accusamus fugit iste pariatur provident ut corporis quo. Nemo dolorum dicta eos?</p>
+	  </div>
+	</div>
+
 </div>	<!-- first-slide -->
 
-	
 
 <script src="libs/jquery/dist/jquery.min.js"></script>
 <script src="libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/typewriting.min.js"></script>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/animation.gsap.js"></script>
+
 <script src="js/main.js"></script>
+
+  <script>
+	$(function () {
+
+	var controller = new ScrollMagic.Controller();
+
+	var img1 = document.getElementsByClassName("img1");
+	var img2 = document.getElementsByClassName("img2");
+	
+
+
+	 var slides = new TimelineMax()
+	 		.to(".descr", 0.5, {top:"40%"})
+	 		.to(".wblock", 0.5, {right:"-100%"},0)
+	 		.to(".wblock2", 0.5, {right:"-100%"})
+	 		.to(img1, 0.1, {opacity:1},0)
+	 		.to(".imgn", 0.5, {opacity:1},0.35)
+	 		.to(".descr-right", 0.5, {top:"27%",opacity:1},0.6)
+	 		.to(".descr-left", 0.5, {opacity:0},0.6)
+
+	 		//.to(img2, 0.5, {opacity:1},0.4)
+	 				
+			
+			
+			
+	new ScrollMagic.Scene({
+					triggerElement: ".first-slide",
+					triggerHook: "onLeave",
+					duration: "150%"
+				})
+				.setPin(".first-slide")
+				.setTween(slides)
+				.addIndicators()
+				.addTo(controller);
+
+
+	});
+
+</script>  
+
 </body>
 </html>
