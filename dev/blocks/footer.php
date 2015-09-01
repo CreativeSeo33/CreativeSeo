@@ -4,7 +4,7 @@
     <div class="row footer-list">
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <ul>
-          <li><a href="">Продвижение сайтов</a></li>
+          <li><a href="/">Продвижение сайтов</a></li>
           <li><a href="">Создание сайтов</a></li>
           <li><a href="">Контекстная реклама</a></li>
           <li><a href="">Создание контента</a></li>
@@ -12,13 +12,13 @@
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <ul>
-          <li><a href="">Портфолио</a></li>
+          <li><a href="/portfolio/">Портфолио</a></li>
           <li><a href="">Блог</a></li>
         <ul>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <ul>
-          <li><a href=""></a></li>
+          <li><a href="/contacts/">Контакты</a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-sozseti">
@@ -44,17 +44,17 @@
 
 
 
-<script src="/dev/libs/jquery/dist/jquery.min.js"></script>
-<script src="/dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
-<script src="/dev/js/navigation.js"></script>
-<script src="/dev/js/typewriting.min.js"></script>
+<script src="/libs/jquery/dist/jquery.min.js"></script>
+<script src="/libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+<script src="/js/navigation.js"></script>
+<script src="/js/typewriting.min.js"></script>
 
 <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-<script src="/dev/js/TweenMax.min.js"></script>
-<script src="/dev/js/animation.gsap.js"></script>
-<script src="/dev/js/animation.gsap.js"></script>
-<script src="/dev/js/jquery.smoothscroll.js"></script>
+<script src="/js/TweenMax.min.js"></script>
+<script src="/js/animation.gsap.js"></script>
+<script src="/js/animation.gsap.js"></script>
+<script src="/js/jquery.smoothscroll.js"></script>
 
   <script>
   $(function () {
@@ -140,7 +140,8 @@
   });
 </script> 
 
-<script src="/dev/js/jquery.hoverdir.js"></script> 
+
+<script src="/js/jquery.hoverdir.js"></script> 
 <script type="text/javascript">
       $(function() {
 

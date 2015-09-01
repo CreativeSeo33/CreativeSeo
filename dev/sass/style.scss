@@ -76,8 +76,14 @@ ul li {
 	}
 	div {
 		span {
+			opacity: 0.9;
+			font-weight:100;
+			font-size:26px;
+			color: #fff;
+		}
+		> span {
 			font-size:28px;
-			font-weight:700;
+			font-weight:300;
 			color: #fff;
 			@include centerer;
 		}
