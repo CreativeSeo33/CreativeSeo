@@ -3,23 +3,93 @@
 @import "../libs/font-awesome/css/font-awesome.min.css";
 @import 'bourbon/bourbon'; 
 @import "navigation";
+@import "footer";
+@import "mixins";
 
 body {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: $font-open-sans;
 	list-style-type: none !important;
 }
  h1 {
   	font-weight: 700;
   }
+ul li {
+	list-style-type: none;
+}
 
-
+// Логотип
 .cd-logo {
 	a {
-		font-size: 32px;
+		font-size: 48px;
 		font-weight: 700;
 		color: #333;
 	}
 }
+// Логотип
+
+// CONTACTS
+
+.contacts_block {
+	position: relative;	
+	padding: 100px 10px;
+	text-align:center;
+	&_number {
+		font-size:28px;
+		font-weight:700;
+	}
+}
+.contacts_block_content {
+	@include centerer($horizontal: true, $vertical: true);
+	padding-left:30px;
+	padding-right:30px;
+	width: 100%; 
+}
+.contacts_block_adres {
+	font-size:18px;
+}
+.contacts_block_mail {
+	font-size:22px;
+	padding: 20px 0;
+}
+
+// CONTACTS
+
+//PORTFOLIO
+
+.portfolio {
+	padding: 0 30px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.portfolio_title {
+	//font: $font-open-sans-cond;
+	font-weight:700;
+	font-size:18px;
+	padding: 20px 0 8px 0;
+	text-transform:uppercase;
+}
+.da-thumbs  {
+	position: relative;
+	overflow: hidden;
+	img {
+		width: 100%;
+	}
+	div {
+		span {
+			font-size:28px;
+			font-weight:700;
+			color: #fff;
+			@include centerer;
+		}
+	}
+}
+.da-thumbs div {
+    background: rgba(75, 75, 75, 0.7) none repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+//PORTFOLIO
 
 .center-vh {
 	 position: absolute;

@@ -13,8 +13,16 @@ Primary style
 -------------------------------- */
 
 
-
+.header-wrapper {
+	
+	min-height:$header-height-M;	
+	position: relative;	
+}
+.phone-navbar {
+	display: inline-block;
+}
 body .cd-header {
+
 	font: {
 		
 		family: $primary-font; // variables inside partials > _variables.scss
@@ -380,3 +388,14 @@ Main components
 	}
 }
 
+.phone-navbar {
+	color: #333;
+	font-size:24px;
+	font-weight:700;
+	display: inline-block;
+	float: right;
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+    right: 7.2em;
+}
