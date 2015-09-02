@@ -16,7 +16,7 @@
 
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
 			<div class="da-thumbs">
-				<img src="../img/menard.png" alt="" class="img-responsive">
+				<img src="../img/portfolio/goldenhome.jpg" alt="" class="img-responsive">
 				<div>
 					<span>
 						<a href="/portfolio/golden-home/" title="Подробнее">
@@ -41,7 +41,7 @@
 
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
 			<div class="da-thumbs">
-				<img src="../img/menard.png" alt="" class="img-responsive">
+				<img src="../img/portfolio/kluch585.jpg" alt="" class="img-responsive">
 				<div>
 					<span>
 						<a href="/portfolio/kluch585/" title="Подробнее">
@@ -66,7 +66,7 @@
 
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
 			<div class="da-thumbs">
-				<img src="../img/menard.png" alt="" class="img-responsive">
+				<img src="../img/portfolio/lustragus.jpg" alt="" class="img-responsive">
 				<div>
 					<span>
 						<a href="/portfolio/lustra-gus/" title="Подробнее">
@@ -98,7 +98,7 @@
 		
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
 			<div class="da-thumbs">
-				<img src="../img/menard.png" alt="" class="img-responsive">
+				<img src="../img/portfolio/ocenim33.jpg" alt="" class="img-responsive">
 				<div>
 					<span>
 						<a href="/portfolio/ocenim33/" title="Подробнее">
@@ -123,7 +123,7 @@
 
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
 			<div class="da-thumbs">
-				<img src="../img/menard.png" alt="" class="img-responsive">
+				<img src="../img/portfolio/smp.jpg" alt="" class="img-responsive">
 				<div>
 					<span>
 						<a href="http://www.смп-245.рф/" title="Перейти на сайт СМП-245" rel="nofolow" target="_blank">
@@ -141,7 +141,7 @@
 
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
 			<div class="da-thumbs">
-				<img src="../img/menard.png" alt="" class="img-responsive">
+				<img src="../img/portfolio/kaprize.jpg" alt="" class="img-responsive">
 				<div>
 					<span>
 						<a href="http://www.kaprize-moda.ru/" title="Перейти на сайт Капризе" rel="nofolow" target="_blank">
@@ -164,7 +164,7 @@
 	<div class="row portfolio">
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
 			<div class="da-thumbs">
-				<img src="../img/menard.png" alt="" class="img-responsive">
+				<img src="../img/portfolio/patent33.jpg" alt="" class="img-responsive">
 				<div>
 					<span>
 						<a href="http://www.patent33.ru/" title="Перейти на сайт Патент 33" rel="nofolow" target="_blank">
@@ -184,7 +184,7 @@
 	
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
 			<div class="da-thumbs">
-				<img src="../img/menard.png" alt="" class="img-responsive">
+				<img src="../img/portfolio/gazoblok37.jpg" alt="" class="img-responsive">
 				<div>
 					<span>
 						<a href="http://www.gazoblok37.ru/" title="Перейти на сайт Газоблок 37" rel="nofolow" target="_blank">
@@ -202,7 +202,7 @@
 
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
 			<div class="da-thumbs">
-				<img src="../img/menard.png" alt="" class="img-responsive">
+				<img src="../img/portfolio/expert.jpg" alt="" class="img-responsive">
 				<div>
 					<span>
 						<a href="http://www.expert-ocenka33.ru/" title="Перейти на сайт Бюро оценки" rel="nofolow" target="_blank">
